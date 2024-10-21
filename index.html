@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/64ddf18e28.js" crossorigin="anonymous"></script>
+    <title>OTD - Ochronimy Twój Dom</title>
+    <link rel="icon" href="logo-icon.png" type="logo">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo OTD">
+            <span>OTD - Ochronimy Twój Dom</span>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#aboutus">O Nas</a></li>
+            <li><a href="#installations">Instalacje</a></li>
+            <li><a href="#services">Usługi</a></li>
+            <li><a href="#products">Asortyment</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <div class="text">
+            <h1>Bezpieczeństwo Twojego domu z najnowszymi technologiami</h1>
+            <p>Specjalizujemy się w instalacji kamer, alarmów i systemów wideofonowych dla budynków mieszkalnych i
+                komercyjnych.</p>
+            <p>Zadbaj o bezpieczeństwo swojego domu i firmy z Naszą pomocą!</p>
+        </div>
+        <div class="image">
+            <!-- Zastąp 'image.jpg' odpowiednim linkiem do zdjęcia -->
+            <img src="https://images.unsplash.com/photo-1496368077930-c1e31b4e5b44?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Bezpieczeństwo domu">
+        </div>
+    </main>
+
+    <section class="additional-content">
+        <div class="image">
+            <!-- Zastąp 'another_image.jpg' odpowiednim linkiem do zdjęcia -->
+            <img src="https://images.unsplash.com/photo-1614469422872-6e09d2569cc0?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Profesjonalny montaż kamer">
+        </div>
+
+        <div class="text" id="aboutus">
+            <h2>Jak działamy i kim jesteśmy?</h2>
+            <p>Nasza firma specjalizuję się w montażu kamer, domofonów oraz systemów Sygnalizacji Włamania i Napadu.
+                Posiadamy
+                doświadczenie i wiedzę, która pozwala Nam zapewnić wysoki poziom usług w zakresie
+                zabezpieczeń.</br></br> Dlaczego warto wybrać nasze usługi:</p>
+            <ul>
+                <li>Każde zlecenie traktujemy z pełnym zaangażowaniem i dokładnością.</li></br>
+                <li>Każdy projekt dostosowujemy do specyficznych potrzeb i wymagań klienta, oferując rozwiązania na
+                    miarę Państwa oczekiwań.</li></br>
+                <li>Stawiamy na przejrzystość w komunikacji oraz uczciwość w działaniu – zawsze możesz na Nas liczyć.
+                </li></br>
+                <li>Oferujmy wsparcie techniczne zarówno podczas instalacji, jak i po jej zakończeniu. Jesteśmy zawsze
+                    dostępni, by pomóc i doradzić.</li>
+
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="container-contact" id="contact">
+        <h1>Zadbaj o spokój i bezpieczeństwo już dziś!</h1>
+        <p>Skontaktuj się z Nami, aby umówić się na bezpłatną konsultację i dowiedzieć się, jak możemy Ci pomóc.</p>
+        <button class="contact-btn">Skontaktuj się</button>
+
+        <!-- Formularz kontaktowy -->
+        <form action="https://formsubmit.io/send/otdtest99@gmail.com" method="POST" id="kontaktForm">
+            <label for="name">Imię i nazwisko:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" required>
+
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Wyślij">
+        </form>
+
+        <!-- Komunikat z podziękowaniem -->
+        <div class="thank-you-message" id="thankYouMessage">
+            Dziękujemy za chęć skorzystania z naszych usług, odezwiemy się do maksymalnie dwóch godzin.
+        </div>
+
+
+    </section>
+
+
+    <section class="installations-content" id="installations">
+        <h2>Instalacje</h2>
+        <div class="cards">
+            <div class="card">
+                <i class="fa-solid fa-house"></i>
+                <h1>Domy jednorodzinne</h1>
+                <p>Zajmujemy się instalacją systemów monitoringu w domach jednorodzinnych, zarówno wewnątrz budynków,
+                    jak i na zewnątrz
+                </p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-building"></i>
+                <h1>Mieszkania</h1>
+                <p>Monitoring w mieszkaniu? Dobierzemy odpowiednie kamery do Twoich potrzeb!</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-square-parking"></i>
+                <i class="fa-solid fa-car"></i>
+                <h1>Parkingi i hale</h1>
+                <p>Dobierzemy idealne kamery i systemy alarmowe dla hal, parkingów oraz innych podobnych obiektów.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <h1>Sklepy</h1>
+                <p>Oferujemy kamery idealne zarówno dla sklepów osiedlowych, jak i dużych supermarketów.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-suitcase"></i>
+                <h1>Firmy</h1>
+                <p>Zapewniamy kamery do biur – na korytarze oraz przestrzenie wspólne</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-hotel"></i>
+                <i class="fa-solid fa-bell-concierge"></i>
+                <h1>Restaruacje i hotele</h1>
+                <p>Zapewniamy monitoring pomieszczeń, korytarzy oraz stref socjalnych przeznaczonych dla pracowników.
+                </p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-place-of-worship"></i>
+                <h1>Urzędy</h1>
+                <p>Montujemy kamery także w obiektach użyteczności publicznej.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h1>Szkoły i przedszkola</h1>
+                <p>Posiadamy doświadczenie w montażu systemów monitoringu w szkołach i innych placówkach oświatowych.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-content" id="services">
+        <h2>Nasze usługi</h2>
+        <ul class="services-list">
+            <li>
+                <strong>Montaż kamer CCTV:</strong> Zainstalujemy kamery, które będą monitorować Twoją posesję 24/7,
+                zapewniając pełen obraz sytuacji.
+            </li>
+            <li>
+                <strong>Domofony oraz Wideodomofony:</strong> Instalujemy domofony, które umożliwiają łatwe zarządzanie
+                dostępem i
+                komunikację z gośćmi w Twoim budynku.
+            </li>
+            <li>
+                <strong>Systemy SSWiN:</strong> Zapewniamy kompleksowe rozwiązania w zakresie alarmów antywłamaniowych i
+                systemów napadowych, które zadziałają w momencie wykrycia zagrożenia.
+            </li>
+            <li>
+                <strong>Aplikacje mobilne:</strong> Dzięki nowoczesnym aplikacjom będziesz mógł monitorować swój obiekt
+                z dowolnego miejsca na świecie, w czasie rzeczywistym.
+            </li>
+        </ul>
+    </section>
+
+    <section class="info-content">
+        <div class="info-row">
+            <div class="info">
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <p><strong>Wycena i dobór:</strong> W zakresie wyceny i wyboru: dopasujemy kamery do Twoich wymagań i
+                    przygotujemy szczegółową wycenę.</p>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <p><strong>Instalacja:</strong> Zajmiemy się montażem zamówionego sprzętu, od ułożenia kabli po
+                    estetyczne umiejscowienie urządzeń w wyznaczonych lokalizacjach.</p>
+            </div>
+        </div>
+        <div class="info-row">
+            <div class="info">
+                <i class="fa-solid fa-door-closed"></i>
+                <p><strong>Pełny serwis:</strong> Oferujemy kompleksową obsługę gwarancyjną z opcją serwisu „door to
+                    door”. Dodatkowo, zapewniamy usługi regularnej konserwacji sprzętu i systemów.</p>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-laptop-file"></i>
+                <p><strong>Szkolenie z obsługi:</strong> Po zakończeniu montażu przeprowadzimy szkolenie z obsługi
+                    sprzętu oraz skonfigurujemy urządzenia, aby umożliwić podgląd na żywo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="assortment-content" id="products">
+        <h2>Asortyment</h2>
+        <p>Tylko sprawdzony sprzęt topowych producentów</p></br></br>
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <div class="carousel-item"><img src="dahua.png" alt="dahua"></div>
+                <div class="carousel-item"><img src="hik.png" alt="hik"></div>
+                <div class="carousel-item"><img src="novus.png" alt="novus"></div>
+                <div class="carousel-item"><img src="bcs.png" alt="bcs"></div>
+                <div class="carousel-item"><img src="pelco.png" alt="pelco"></div>
+                <div class="carousel-item"><img src="satel.png" alt="satel"></div>
+                <div class="carousel-item"><img src="bosch.png" alt="bosch"></div>
+                <div class="carousel-item"><img src="roger.jpg" alt="roger"></div>
+                <div class="carousel-item"><img src="schneider.png" alt="schneider"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits-content">
+        <h2>Korzyści z wyboru OTD</h2>
+        <div class="benefits-cards">
+            <div class="benefit-card">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Profesjonalna instalacja</h3>
+                <p>Zapewniamy fachową instalację systemów zabezpieczeń.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-user-shield"></i>
+                <h3>Bezpieczeństwo nieruchomości</h3>
+                <p>Oferujemy kompleksowe rozwiązania dla domów, firm i wiele więcej.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-medal"></i>
+                <h3>Technologia najwyższej jakości</h3>
+                <p>Wykorzystujemy najnowocześniejsze i najbardziej sprawdzone systemy zapewniające bezpieczeństwo.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="fas fa-bed"></i>
+                <h3>Spokój i komfort</h3>
+                <p>Nasze usługi gwarantują spokój oraz poczucie bezpieczeństwa.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo firmy">
+            <p>© 2024 OTD - Ochronimy Twój Dom.</br> Wszelkie prawa zastrzeżone.</p>
+        </div>
+        <div class="about">
+            <h3>O nas</h3>
+            <p><a href="#products">Asortyment</a></p>
+            <p><a href="#installations">Instalacje</a></p>
+            <p><a href="#services">Usługi</a></p>
+        </div>
+        <div class="contact">
+            <h3>Kontakt</h3>
+            <p><i class="fas fa-phone-alt"></i> 793648465</p>
+            <p><i class="fas fa-envelope"></i> ochronimytwojdom@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Ul. Radzikowskiego 100G, 31-315 Kraków</p>
+        </div>
+        <div class="social">
+            <h3>Obserwuj Nas!</h3>
+            <p><a href="https://www.facebook.com/profile.php?id=61565573096966" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-facebook"></i>
+                    Facebook</a></p>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
